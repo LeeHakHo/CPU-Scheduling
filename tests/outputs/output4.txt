@@ -1,0 +1,897 @@
+===========================================
+Scheduling: FCFS
+-------------------------------------------
+<time 0>	[Idle]
+<time 1>	[Idle]
+<time 2>	[Idle]
+<time 3>	[Idle]
+<time 4>	[Idle]
+<time 5>	[Idle]
+<time 6>	[Idle]
+<time 7>	[Idle]
+<time 8>	[Idle]
+<time 9>	[READY] Process 8
+<time 9>	[START] Process 8
+<time 9>	[RUNNING] Process 8
+<time 10>	[RUNNING] Process 8
+<time 11>	[RUNNING] Process 8
+<time 12>	[RUNNING] Process 8
+<time 13>	[RUNNING] Process 8
+<time 14>	[RUNNING] Process 8
+<time 15>	[RUNNING] Process 8
+<time 16>	[RUNNING] Process 8
+<time 17>	[RUNNING] Process 8
+<time 18>	[RUNNING] Process 8
+<time 19>	[RUNNING] Process 8
+<time 20>	[RUNNING] Process 8
+<time 21>	[RUNNING] Process 8
+<time 22>	[RUNNING] Process 8
+<time 23>	[READY] Process 7
+<time 23>	[RUNNING] Process 8
+<time 24>	[RUNNING] Process 8
+<time 25>	[RUNNING] Process 8
+<time 26>	[RUNNING] Process 8
+<time 27>	[RUNNING] Process 8
+<time 28>	[FINISHED] Process 8
+-------------------------------------------
+<time 28>	[START] Process 7
+<time 28>	[RUNNING] Process 7
+<time 29>	[RUNNING] Process 7
+<time 30>	[RUNNING] Process 7
+<time 31>	[RUNNING] Process 7
+<time 32>	[RUNNING] Process 7
+<time 33>	[RUNNING] Process 7
+<time 34>	[RUNNING] Process 7
+<time 35>	[RUNNING] Process 7
+<time 36>	[RUNNING] Process 7
+<time 37>	[RUNNING] Process 7
+<time 38>	[FINISHED] Process 7
+-------------------------------------------
+<time 38>	[Idle]
+<time 39>	[Idle]
+<time 40>	[Idle]
+<time 41>	[Idle]
+<time 42>	[Idle]
+<time 43>	[Idle]
+<time 44>	[Idle]
+<time 45>	[READY] Process 3
+<time 45>	[START] Process 3
+<time 45>	[RUNNING] Process 3
+<time 46>	[RUNNING] Process 3
+<time 47>	[RUNNING] Process 3
+<time 48>	[RUNNING] Process 3
+<time 49>	[RUNNING] Process 3
+<time 50>	[RUNNING] Process 3
+<time 51>	[RUNNING] Process 3
+<time 52>	[FINISHED] Process 3
+-------------------------------------------
+<time 52>	[Idle]
+<time 53>	[Idle]
+<time 54>	[Idle]
+<time 55>	[Idle]
+<time 56>	[Idle]
+<time 57>	[READY] Process 2
+<time 57>	[START] Process 2
+<time 57>	[RUNNING] Process 2
+<time 58>	[READY] Process 9
+<time 58>	[RUNNING] Process 2
+<time 59>	[READY] Process 1
+<time 59>	[RUNNING] Process 2
+<time 60>	[RUNNING] Process 2
+<time 61>	[RUNNING] Process 2
+<time 62>	[READY] Process 5
+<time 62>	[RUNNING] Process 2
+<time 63>	[RUNNING] Process 2
+<time 64>	[RUNNING] Process 2
+<time 65>	[RUNNING] Process 2
+<time 66>	[RUNNING] Process 2
+<time 67>	[RUNNING] Process 2
+<time 68>	[RUNNING] Process 2
+<time 69>	[RUNNING] Process 2
+<time 70>	[READY] Process 6
+<time 70>	[RUNNING] Process 2
+<time 71>	[RUNNING] Process 2
+<time 72>	[FINISHED] Process 2
+-------------------------------------------
+<time 72>	[START] Process 9
+<time 72>	[RUNNING] Process 9
+<time 73>	[RUNNING] Process 9
+<time 74>	[RUNNING] Process 9
+<time 75>	[RUNNING] Process 9
+<time 76>	[RUNNING] Process 9
+<time 77>	[RUNNING] Process 9
+<time 78>	[RUNNING] Process 9
+<time 79>	[RUNNING] Process 9
+<time 80>	[RUNNING] Process 9
+<time 81>	[RUNNING] Process 9
+<time 82>	[RUNNING] Process 9
+<time 83>	[RUNNING] Process 9
+<time 84>	[RUNNING] Process 9
+<time 85>	[RUNNING] Process 9
+<time 86>	[RUNNING] Process 9
+<time 87>	[RUNNING] Process 9
+<time 88>	[READY] Process 0
+<time 88>	[RUNNING] Process 9
+<time 89>	[RUNNING] Process 9
+<time 90>	[RUNNING] Process 9
+<time 91>	[RUNNING] Process 9
+<time 92>	[RUNNING] Process 9
+<time 93>	[RUNNING] Process 9
+<time 94>	[RUNNING] Process 9
+<time 95>	[RUNNING] Process 9
+<time 96>	[FINISHED] Process 9
+-------------------------------------------
+<time 96>	[START] Process 1
+<time 96>	[RUNNING] Process 1
+<time 97>	[READY] Process 4
+<time 97>	[RUNNING] Process 1
+<time 98>	[RUNNING] Process 1
+<time 99>	[RUNNING] Process 1
+<time 100>	[RUNNING] Process 1
+<time 101>	[RUNNING] Process 1
+<time 102>	[RUNNING] Process 1
+<time 103>	[RUNNING] Process 1
+<time 104>	[RUNNING] Process 1
+<time 105>	[RUNNING] Process 1
+<time 106>	[RUNNING] Process 1
+<time 107>	[RUNNING] Process 1
+<time 108>	[RUNNING] Process 1
+<time 109>	[RUNNING] Process 1
+<time 110>	[RUNNING] Process 1
+<time 111>	[RUNNING] Process 1
+<time 112>	[RUNNING] Process 1
+<time 113>	[RUNNING] Process 1
+<time 114>	[RUNNING] Process 1
+<time 115>	[RUNNING] Process 1
+<time 116>	[RUNNING] Process 1
+<time 117>	[RUNNING] Process 1
+<time 118>	[FINISHED] Process 1
+-------------------------------------------
+<time 118>	[START] Process 5
+<time 118>	[RUNNING] Process 5
+<time 119>	[RUNNING] Process 5
+<time 120>	[RUNNING] Process 5
+<time 121>	[RUNNING] Process 5
+<time 122>	[RUNNING] Process 5
+<time 123>	[RUNNING] Process 5
+<time 124>	[RUNNING] Process 5
+<time 125>	[RUNNING] Process 5
+<time 126>	[RUNNING] Process 5
+<time 127>	[RUNNING] Process 5
+<time 128>	[RUNNING] Process 5
+<time 129>	[RUNNING] Process 5
+<time 130>	[RUNNING] Process 5
+<time 131>	[RUNNING] Process 5
+<time 132>	[RUNNING] Process 5
+<time 133>	[RUNNING] Process 5
+<time 134>	[RUNNING] Process 5
+<time 135>	[RUNNING] Process 5
+<time 136>	[RUNNING] Process 5
+<time 137>	[RUNNING] Process 5
+<time 138>	[FINISHED] Process 5
+-------------------------------------------
+<time 138>	[START] Process 6
+<time 138>	[RUNNING] Process 6
+<time 139>	[RUNNING] Process 6
+<time 140>	[RUNNING] Process 6
+<time 141>	[RUNNING] Process 6
+<time 142>	[RUNNING] Process 6
+<time 143>	[RUNNING] Process 6
+<time 144>	[RUNNING] Process 6
+<time 145>	[RUNNING] Process 6
+<time 146>	[RUNNING] Process 6
+<time 147>	[RUNNING] Process 6
+<time 148>	[RUNNING] Process 6
+<time 149>	[RUNNING] Process 6
+<time 150>	[RUNNING] Process 6
+<time 151>	[RUNNING] Process 6
+<time 152>	[RUNNING] Process 6
+<time 153>	[FINISHED] Process 6
+-------------------------------------------
+<time 153>	[START] Process 0
+<time 153>	[RUNNING] Process 0
+<time 154>	[RUNNING] Process 0
+<time 155>	[RUNNING] Process 0
+<time 156>	[RUNNING] Process 0
+<time 157>	[RUNNING] Process 0
+<time 158>	[RUNNING] Process 0
+<time 159>	[RUNNING] Process 0
+<time 160>	[RUNNING] Process 0
+<time 161>	[RUNNING] Process 0
+<time 162>	[RUNNING] Process 0
+<time 163>	[RUNNING] Process 0
+<time 164>	[FINISHED] Process 0
+-------------------------------------------
+<time 164>	[START] Process 4
+<time 164>	[RUNNING] Process 4
+<time 165>	[RUNNING] Process 4
+<time 166>	[RUNNING] Process 4
+<time 167>	[RUNNING] Process 4
+<time 168>	[RUNNING] Process 4
+<time 169>	[RUNNING] Process 4
+<time 170>	[RUNNING] Process 4
+<time 171>	[RUNNING] Process 4
+<time 172>	[RUNNING] Process 4
+<time 173>	[RUNNING] Process 4
+<time 174>	[RUNNING] Process 4
+<time 175>	[RUNNING] Process 4
+<time 176>	[RUNNING] Process 4
+<time 177>	[RUNNING] Process 4
+<time 178>	[RUNNING] Process 4
+<time 179>	[RUNNING] Process 4
+<time 180>	[FINISHED] Process 4
+-------------------------------------------
+<time 180>	[All FINISHED]
+-------------------------------------------
+Average CPU usage : 88.333333 % 
+Average waiting time : 63.000000 ms
+Average response time : 31.200000 ms
+Average turnaround time : 119.800000 ms
+===========================================
+
+===========================================
+Scheduling: Round robin
+-------------------------------------------
+<time 0>	[Idle]
+<time 1>	[Idle]
+<time 2>	[Idle]
+<time 3>	[Idle]
+<time 4>	[Idle]
+<time 5>	[Idle]
+<time 6>	[Idle]
+<time 7>	[Idle]
+<time 8>	[Idle]
+<time 9>	[READY] Process 8
+<time 9>	[START] Process 8
+<time 9>	[RUNNING] Process 8
+<time 10>	[RUNNING] Process 8
+<time 11>	[RUNNING] Process 8
+<time 12>	[RUNNING] Process 8
+<time 13>	[RUNNING] Process 8
+<time 14>	[STOP] Process 8
+-------------------------------------------
+<time 14>	[START] Process 8
+<time 14>	[RUNNING] Process 8
+<time 15>	[RUNNING] Process 8
+<time 16>	[RUNNING] Process 8
+<time 17>	[RUNNING] Process 8
+<time 18>	[RUNNING] Process 8
+<time 19>	[STOP] Process 8
+-------------------------------------------
+<time 19>	[START] Process 8
+<time 19>	[RUNNING] Process 8
+<time 20>	[RUNNING] Process 8
+<time 21>	[RUNNING] Process 8
+<time 22>	[RUNNING] Process 8
+<time 23>	[READY] Process 7
+<time 23>	[RUNNING] Process 8
+<time 24>	[STOP] Process 8
+-------------------------------------------
+<time 24>	[START] Process 7
+<time 24>	[RUNNING] Process 7
+<time 25>	[RUNNING] Process 7
+<time 26>	[RUNNING] Process 7
+<time 27>	[RUNNING] Process 7
+<time 28>	[RUNNING] Process 7
+<time 29>	[STOP] Process 7
+-------------------------------------------
+<time 29>	[START] Process 8
+<time 29>	[RUNNING] Process 8
+<time 30>	[RUNNING] Process 8
+<time 31>	[RUNNING] Process 8
+<time 32>	[RUNNING] Process 8
+<time 33>	[FINISHED] Process 8
+-------------------------------------------
+<time 33>	[START] Process 7
+<time 33>	[RUNNING] Process 7
+<time 34>	[RUNNING] Process 7
+<time 35>	[RUNNING] Process 7
+<time 36>	[RUNNING] Process 7
+<time 37>	[RUNNING] Process 7
+<time 38>	[FINISHED] Process 7
+-------------------------------------------
+<time 38>	[Idle]
+<time 39>	[Idle]
+<time 40>	[Idle]
+<time 41>	[Idle]
+<time 42>	[Idle]
+<time 43>	[Idle]
+<time 44>	[Idle]
+<time 45>	[READY] Process 3
+<time 45>	[START] Process 3
+<time 45>	[RUNNING] Process 3
+<time 46>	[RUNNING] Process 3
+<time 47>	[RUNNING] Process 3
+<time 48>	[RUNNING] Process 3
+<time 49>	[RUNNING] Process 3
+<time 50>	[STOP] Process 3
+-------------------------------------------
+<time 50>	[START] Process 3
+<time 50>	[RUNNING] Process 3
+<time 51>	[RUNNING] Process 3
+<time 52>	[FINISHED] Process 3
+-------------------------------------------
+<time 52>	[Idle]
+<time 53>	[Idle]
+<time 54>	[Idle]
+<time 55>	[Idle]
+<time 56>	[Idle]
+<time 57>	[READY] Process 2
+<time 57>	[START] Process 2
+<time 57>	[RUNNING] Process 2
+<time 58>	[READY] Process 9
+<time 58>	[RUNNING] Process 2
+<time 59>	[READY] Process 1
+<time 59>	[RUNNING] Process 2
+<time 60>	[RUNNING] Process 2
+<time 61>	[RUNNING] Process 2
+<time 62>	[STOP] Process 2
+-------------------------------------------
+<time 62>	[READY] Process 5
+<time 62>	[START] Process 9
+<time 62>	[RUNNING] Process 9
+<time 63>	[RUNNING] Process 9
+<time 64>	[RUNNING] Process 9
+<time 65>	[RUNNING] Process 9
+<time 66>	[RUNNING] Process 9
+<time 67>	[STOP] Process 9
+-------------------------------------------
+<time 67>	[START] Process 1
+<time 67>	[RUNNING] Process 1
+<time 68>	[RUNNING] Process 1
+<time 69>	[RUNNING] Process 1
+<time 70>	[READY] Process 6
+<time 70>	[RUNNING] Process 1
+<time 71>	[RUNNING] Process 1
+<time 72>	[STOP] Process 1
+-------------------------------------------
+<time 72>	[START] Process 2
+<time 72>	[RUNNING] Process 2
+<time 73>	[RUNNING] Process 2
+<time 74>	[RUNNING] Process 2
+<time 75>	[RUNNING] Process 2
+<time 76>	[RUNNING] Process 2
+<time 77>	[STOP] Process 2
+-------------------------------------------
+<time 77>	[START] Process 5
+<time 77>	[RUNNING] Process 5
+<time 78>	[RUNNING] Process 5
+<time 79>	[RUNNING] Process 5
+<time 80>	[RUNNING] Process 5
+<time 81>	[RUNNING] Process 5
+<time 82>	[STOP] Process 5
+-------------------------------------------
+<time 82>	[START] Process 9
+<time 82>	[RUNNING] Process 9
+<time 83>	[RUNNING] Process 9
+<time 84>	[RUNNING] Process 9
+<time 85>	[RUNNING] Process 9
+<time 86>	[RUNNING] Process 9
+<time 87>	[STOP] Process 9
+-------------------------------------------
+<time 87>	[START] Process 6
+<time 87>	[RUNNING] Process 6
+<time 88>	[READY] Process 0
+<time 88>	[RUNNING] Process 6
+<time 89>	[RUNNING] Process 6
+<time 90>	[RUNNING] Process 6
+<time 91>	[RUNNING] Process 6
+<time 92>	[STOP] Process 6
+-------------------------------------------
+<time 92>	[START] Process 1
+<time 92>	[RUNNING] Process 1
+<time 93>	[RUNNING] Process 1
+<time 94>	[RUNNING] Process 1
+<time 95>	[RUNNING] Process 1
+<time 96>	[RUNNING] Process 1
+<time 97>	[STOP] Process 1
+-------------------------------------------
+<time 97>	[READY] Process 4
+<time 97>	[START] Process 2
+<time 97>	[RUNNING] Process 2
+<time 98>	[RUNNING] Process 2
+<time 99>	[RUNNING] Process 2
+<time 100>	[RUNNING] Process 2
+<time 101>	[RUNNING] Process 2
+<time 102>	[FINISHED] Process 2
+-------------------------------------------
+<time 102>	[START] Process 5
+<time 102>	[RUNNING] Process 5
+<time 103>	[RUNNING] Process 5
+<time 104>	[RUNNING] Process 5
+<time 105>	[RUNNING] Process 5
+<time 106>	[RUNNING] Process 5
+<time 107>	[STOP] Process 5
+-------------------------------------------
+<time 107>	[START] Process 9
+<time 107>	[RUNNING] Process 9
+<time 108>	[RUNNING] Process 9
+<time 109>	[RUNNING] Process 9
+<time 110>	[RUNNING] Process 9
+<time 111>	[RUNNING] Process 9
+<time 112>	[STOP] Process 9
+-------------------------------------------
+<time 112>	[START] Process 0
+<time 112>	[RUNNING] Process 0
+<time 113>	[RUNNING] Process 0
+<time 114>	[RUNNING] Process 0
+<time 115>	[RUNNING] Process 0
+<time 116>	[RUNNING] Process 0
+<time 117>	[STOP] Process 0
+-------------------------------------------
+<time 117>	[START] Process 6
+<time 117>	[RUNNING] Process 6
+<time 118>	[RUNNING] Process 6
+<time 119>	[RUNNING] Process 6
+<time 120>	[RUNNING] Process 6
+<time 121>	[RUNNING] Process 6
+<time 122>	[STOP] Process 6
+-------------------------------------------
+<time 122>	[START] Process 1
+<time 122>	[RUNNING] Process 1
+<time 123>	[RUNNING] Process 1
+<time 124>	[RUNNING] Process 1
+<time 125>	[RUNNING] Process 1
+<time 126>	[RUNNING] Process 1
+<time 127>	[STOP] Process 1
+-------------------------------------------
+<time 127>	[START] Process 4
+<time 127>	[RUNNING] Process 4
+<time 128>	[RUNNING] Process 4
+<time 129>	[RUNNING] Process 4
+<time 130>	[RUNNING] Process 4
+<time 131>	[RUNNING] Process 4
+<time 132>	[STOP] Process 4
+-------------------------------------------
+<time 132>	[START] Process 5
+<time 132>	[RUNNING] Process 5
+<time 133>	[RUNNING] Process 5
+<time 134>	[RUNNING] Process 5
+<time 135>	[RUNNING] Process 5
+<time 136>	[RUNNING] Process 5
+<time 137>	[STOP] Process 5
+-------------------------------------------
+<time 137>	[START] Process 9
+<time 137>	[RUNNING] Process 9
+<time 138>	[RUNNING] Process 9
+<time 139>	[RUNNING] Process 9
+<time 140>	[RUNNING] Process 9
+<time 141>	[RUNNING] Process 9
+<time 142>	[STOP] Process 9
+-------------------------------------------
+<time 142>	[START] Process 0
+<time 142>	[RUNNING] Process 0
+<time 143>	[RUNNING] Process 0
+<time 144>	[RUNNING] Process 0
+<time 145>	[RUNNING] Process 0
+<time 146>	[RUNNING] Process 0
+<time 147>	[STOP] Process 0
+-------------------------------------------
+<time 147>	[START] Process 6
+<time 147>	[RUNNING] Process 6
+<time 148>	[RUNNING] Process 6
+<time 149>	[RUNNING] Process 6
+<time 150>	[RUNNING] Process 6
+<time 151>	[RUNNING] Process 6
+<time 152>	[FINISHED] Process 6
+-------------------------------------------
+<time 152>	[START] Process 1
+<time 152>	[RUNNING] Process 1
+<time 153>	[RUNNING] Process 1
+<time 154>	[RUNNING] Process 1
+<time 155>	[RUNNING] Process 1
+<time 156>	[RUNNING] Process 1
+<time 157>	[STOP] Process 1
+-------------------------------------------
+<time 157>	[START] Process 4
+<time 157>	[RUNNING] Process 4
+<time 158>	[RUNNING] Process 4
+<time 159>	[RUNNING] Process 4
+<time 160>	[RUNNING] Process 4
+<time 161>	[RUNNING] Process 4
+<time 162>	[STOP] Process 4
+-------------------------------------------
+<time 162>	[START] Process 5
+<time 162>	[RUNNING] Process 5
+<time 163>	[RUNNING] Process 5
+<time 164>	[RUNNING] Process 5
+<time 165>	[RUNNING] Process 5
+<time 166>	[RUNNING] Process 5
+<time 167>	[FINISHED] Process 5
+-------------------------------------------
+<time 167>	[START] Process 9
+<time 167>	[RUNNING] Process 9
+<time 168>	[RUNNING] Process 9
+<time 169>	[RUNNING] Process 9
+<time 170>	[RUNNING] Process 9
+<time 171>	[FINISHED] Process 9
+-------------------------------------------
+<time 171>	[START] Process 0
+<time 171>	[RUNNING] Process 0
+<time 172>	[FINISHED] Process 0
+-------------------------------------------
+<time 172>	[START] Process 1
+<time 172>	[RUNNING] Process 1
+<time 173>	[RUNNING] Process 1
+<time 174>	[FINISHED] Process 1
+-------------------------------------------
+<time 174>	[START] Process 4
+<time 174>	[RUNNING] Process 4
+<time 175>	[RUNNING] Process 4
+<time 176>	[RUNNING] Process 4
+<time 177>	[RUNNING] Process 4
+<time 178>	[RUNNING] Process 4
+<time 179>	[STOP] Process 4
+-------------------------------------------
+<time 179>	[START] Process 4
+<time 179>	[RUNNING] Process 4
+<time 180>	[FINISHED] Process 4
+-------------------------------------------
+<time 180>	[All FINISHED]
+-------------------------------------------
+Average CPU usage : 88.333333 % 
+Average waiting time : 83.200000 ms
+Average response time : 9.900000 ms
+Average turnaround time : 140.000000 ms
+===========================================
+
+===========================================
+Scheduling: Preemptive priority with aging
+-------------------------------------------
+<time 0>	[Idle]
+<time 1>	[Idle]
+<time 2>	[Idle]
+<time 3>	[Idle]
+<time 4>	[Idle]
+<time 5>	[Idle]
+<time 6>	[Idle]
+<time 7>	[Idle]
+<time 8>	[Idle]
+<time 9>	[READY] Process 8
+<time 9>	[START] Process 8
+<time 9>	[RUNNING] Process 8
+<time 10>	[RUNNING] Process 8
+<time 11>	[RUNNING] Process 8
+<time 12>	[RUNNING] Process 8
+<time 13>	[RUNNING] Process 8
+<time 14>	[RUNNING] Process 8
+<time 15>	[RUNNING] Process 8
+<time 16>	[RUNNING] Process 8
+<time 17>	[RUNNING] Process 8
+<time 18>	[RUNNING] Process 8
+<time 19>	[RUNNING] Process 8
+<time 20>	[RUNNING] Process 8
+<time 21>	[RUNNING] Process 8
+<time 22>	[RUNNING] Process 8
+<time 23>	[READY] Process 7
+<time 23>	[RUNNING] Process 8
+<time 24>	[RUNNING] Process 8
+<time 25>	[RUNNING] Process 8
+<time 26>	[RUNNING] Process 8
+<time 27>	[RUNNING] Process 8
+<time 28>	[FINISHED] Process 8
+-------------------------------------------
+<time 28>	[START] Process 7
+<time 28>	[RUNNING] Process 7
+<time 29>	[RUNNING] Process 7
+<time 30>	[RUNNING] Process 7
+<time 31>	[RUNNING] Process 7
+<time 32>	[RUNNING] Process 7
+<time 33>	[RUNNING] Process 7
+<time 34>	[RUNNING] Process 7
+<time 35>	[RUNNING] Process 7
+<time 36>	[RUNNING] Process 7
+<time 37>	[RUNNING] Process 7
+<time 38>	[FINISHED] Process 7
+-------------------------------------------
+<time 38>	[Idle]
+<time 39>	[Idle]
+<time 40>	[Idle]
+<time 41>	[Idle]
+<time 42>	[Idle]
+<time 43>	[Idle]
+<time 44>	[Idle]
+<time 45>	[READY] Process 3
+<time 45>	[START] Process 3
+<time 45>	[RUNNING] Process 3
+<time 46>	[RUNNING] Process 3
+<time 47>	[RUNNING] Process 3
+<time 48>	[RUNNING] Process 3
+<time 49>	[RUNNING] Process 3
+<time 50>	[RUNNING] Process 3
+<time 51>	[RUNNING] Process 3
+<time 52>	[FINISHED] Process 3
+-------------------------------------------
+<time 52>	[Idle]
+<time 53>	[Idle]
+<time 54>	[Idle]
+<time 55>	[Idle]
+<time 56>	[Idle]
+<time 57>	[READY] Process 2
+<time 57>	[START] Process 2
+<time 57>	[RUNNING] Process 2
+<time 58>	[READY] Process 9
+<time 58>	[RUNNING] Process 2
+<time 59>	[READY] Process 1
+<time 59>	[RUNNING] Process 2
+<time 60>	[RUNNING] Process 2
+<time 61>	[RUNNING] Process 2
+<time 62>	[READY] Process 5
+<time 62>	[RUNNING] Process 2
+<time 63>	[RUNNING] Process 2
+<time 64>	[RUNNING] Process 2
+<time 65>	[RUNNING] Process 2
+<time 66>	[RUNNING] Process 2
+<time 67>	[RUNNING] Process 2
+<time 68>	[RUNNING] Process 2
+<time 69>	[RUNNING] Process 2
+<time 70>	[READY] Process 6
+<time 70>	[RUNNING] Process 2
+<time 71>	[RUNNING] Process 2
+<time 72>	[FINISHED] Process 2
+-------------------------------------------
+<time 72>	[START] Process 9
+<time 72>	[RUNNING] Process 9
+<time 73>	[RUNNING] Process 9
+<time 74>	[RUNNING] Process 9
+<time 75>	[RUNNING] Process 9
+<time 76>	[RUNNING] Process 9
+<time 77>	[RUNNING] Process 9
+<time 78>	[RUNNING] Process 9
+<time 79>	[RUNNING] Process 9
+<time 80>	[RUNNING] Process 9
+<time 81>	[STOP] Process 9
+-------------------------------------------
+<time 81>	[START] Process 5
+<time 81>	[RUNNING] Process 5
+<time 82>	[RUNNING] Process 5
+<time 83>	[RUNNING] Process 5
+<time 84>	[RUNNING] Process 5
+<time 85>	[STOP] Process 5
+-------------------------------------------
+<time 85>	[START] Process 9
+<time 85>	[RUNNING] Process 9
+<time 86>	[RUNNING] Process 9
+<time 87>	[RUNNING] Process 9
+<time 88>	[STOP] Process 9
+-------------------------------------------
+<time 88>	[READY] Process 0
+<time 88>	[START] Process 1
+<time 88>	[RUNNING] Process 1
+<time 89>	[RUNNING] Process 1
+<time 90>	[STOP] Process 1
+-------------------------------------------
+<time 90>	[START] Process 9
+<time 90>	[RUNNING] Process 9
+<time 91>	[STOP] Process 9
+-------------------------------------------
+<time 91>	[START] Process 5
+<time 91>	[RUNNING] Process 5
+<time 92>	[RUNNING] Process 5
+<time 93>	[STOP] Process 5
+-------------------------------------------
+<time 93>	[START] Process 9
+<time 93>	[RUNNING] Process 9
+<time 94>	[STOP] Process 9
+-------------------------------------------
+<time 94>	[START] Process 1
+<time 94>	[RUNNING] Process 1
+<time 95>	[RUNNING] Process 1
+<time 96>	[STOP] Process 1
+-------------------------------------------
+<time 96>	[START] Process 9
+<time 96>	[RUNNING] Process 9
+<time 97>	[STOP] Process 9
+-------------------------------------------
+<time 97>	[READY] Process 4
+<time 97>	[START] Process 5
+<time 97>	[RUNNING] Process 5
+<time 98>	[RUNNING] Process 5
+<time 99>	[STOP] Process 5
+-------------------------------------------
+<time 99>	[START] Process 9
+<time 99>	[RUNNING] Process 9
+<time 100>	[STOP] Process 9
+-------------------------------------------
+<time 100>	[START] Process 1
+<time 100>	[RUNNING] Process 1
+<time 101>	[STOP] Process 1
+-------------------------------------------
+<time 101>	[START] Process 0
+<time 101>	[RUNNING] Process 0
+<time 102>	[RUNNING] Process 0
+<time 103>	[STOP] Process 0
+-------------------------------------------
+<time 103>	[START] Process 9
+<time 103>	[RUNNING] Process 9
+<time 104>	[STOP] Process 9
+-------------------------------------------
+<time 104>	[START] Process 1
+<time 104>	[RUNNING] Process 1
+<time 105>	[STOP] Process 1
+-------------------------------------------
+<time 105>	[START] Process 5
+<time 105>	[RUNNING] Process 5
+<time 106>	[RUNNING] Process 5
+<time 107>	[STOP] Process 5
+-------------------------------------------
+<time 107>	[START] Process 9
+<time 107>	[RUNNING] Process 9
+<time 108>	[STOP] Process 9
+-------------------------------------------
+<time 108>	[START] Process 1
+<time 108>	[RUNNING] Process 1
+<time 109>	[STOP] Process 1
+-------------------------------------------
+<time 109>	[START] Process 0
+<time 109>	[RUNNING] Process 0
+<time 110>	[RUNNING] Process 0
+<time 111>	[STOP] Process 0
+-------------------------------------------
+<time 111>	[START] Process 9
+<time 111>	[RUNNING] Process 9
+<time 112>	[STOP] Process 9
+-------------------------------------------
+<time 112>	[START] Process 1
+<time 112>	[RUNNING] Process 1
+<time 113>	[STOP] Process 1
+-------------------------------------------
+<time 113>	[START] Process 5
+<time 113>	[RUNNING] Process 5
+<time 114>	[RUNNING] Process 5
+<time 115>	[STOP] Process 5
+-------------------------------------------
+<time 115>	[START] Process 9
+<time 115>	[RUNNING] Process 9
+<time 116>	[STOP] Process 9
+-------------------------------------------
+<time 116>	[START] Process 1
+<time 116>	[RUNNING] Process 1
+<time 117>	[STOP] Process 1
+-------------------------------------------
+<time 117>	[START] Process 0
+<time 117>	[RUNNING] Process 0
+<time 118>	[RUNNING] Process 0
+<time 119>	[STOP] Process 0
+-------------------------------------------
+<time 119>	[START] Process 9
+<time 119>	[RUNNING] Process 9
+<time 120>	[STOP] Process 9
+-------------------------------------------
+<time 120>	[START] Process 1
+<time 120>	[RUNNING] Process 1
+<time 121>	[STOP] Process 1
+-------------------------------------------
+<time 121>	[START] Process 5
+<time 121>	[RUNNING] Process 5
+<time 122>	[RUNNING] Process 5
+<time 123>	[STOP] Process 5
+-------------------------------------------
+<time 123>	[START] Process 9
+<time 123>	[RUNNING] Process 9
+<time 124>	[STOP] Process 9
+-------------------------------------------
+<time 124>	[START] Process 1
+<time 124>	[RUNNING] Process 1
+<time 125>	[STOP] Process 1
+-------------------------------------------
+<time 125>	[START] Process 0
+<time 125>	[RUNNING] Process 0
+<time 126>	[RUNNING] Process 0
+<time 127>	[STOP] Process 0
+-------------------------------------------
+<time 127>	[START] Process 9
+<time 127>	[RUNNING] Process 9
+<time 128>	[STOP] Process 9
+-------------------------------------------
+<time 128>	[START] Process 1
+<time 128>	[RUNNING] Process 1
+<time 129>	[STOP] Process 1
+-------------------------------------------
+<time 129>	[START] Process 5
+<time 129>	[RUNNING] Process 5
+<time 130>	[RUNNING] Process 5
+<time 131>	[STOP] Process 5
+-------------------------------------------
+<time 131>	[START] Process 9
+<time 131>	[RUNNING] Process 9
+<time 132>	[FINISHED] Process 9
+-------------------------------------------
+<time 132>	[START] Process 1
+<time 132>	[RUNNING] Process 1
+<time 133>	[STOP] Process 1
+-------------------------------------------
+<time 133>	[START] Process 0
+<time 133>	[RUNNING] Process 0
+<time 134>	[RUNNING] Process 0
+<time 135>	[STOP] Process 0
+-------------------------------------------
+<time 135>	[START] Process 1
+<time 135>	[RUNNING] Process 1
+<time 136>	[STOP] Process 1
+-------------------------------------------
+<time 136>	[START] Process 5
+<time 136>	[RUNNING] Process 5
+<time 137>	[RUNNING] Process 5
+<time 138>	[STOP] Process 5
+-------------------------------------------
+<time 138>	[START] Process 1
+<time 138>	[RUNNING] Process 1
+<time 139>	[STOP] Process 1
+-------------------------------------------
+<time 139>	[START] Process 0
+<time 139>	[RUNNING] Process 0
+<time 140>	[FINISHED] Process 0
+-------------------------------------------
+<time 140>	[START] Process 1
+<time 140>	[RUNNING] Process 1
+<time 141>	[STOP] Process 1
+-------------------------------------------
+<time 141>	[START] Process 5
+<time 141>	[RUNNING] Process 5
+<time 142>	[RUNNING] Process 5
+<time 143>	[FINISHED] Process 5
+-------------------------------------------
+<time 143>	[START] Process 1
+<time 143>	[RUNNING] Process 1
+<time 144>	[RUNNING] Process 1
+<time 145>	[RUNNING] Process 1
+<time 146>	[RUNNING] Process 1
+<time 147>	[STOP] Process 1
+-------------------------------------------
+<time 147>	[START] Process 4
+<time 147>	[RUNNING] Process 4
+<time 148>	[RUNNING] Process 4
+<time 149>	[RUNNING] Process 4
+<time 150>	[RUNNING] Process 4
+<time 151>	[RUNNING] Process 4
+<time 152>	[RUNNING] Process 4
+<time 153>	[RUNNING] Process 4
+<time 154>	[RUNNING] Process 4
+<time 155>	[RUNNING] Process 4
+<time 156>	[RUNNING] Process 4
+<time 157>	[RUNNING] Process 4
+<time 158>	[STOP] Process 4
+-------------------------------------------
+<time 158>	[START] Process 1
+<time 158>	[RUNNING] Process 1
+<time 159>	[RUNNING] Process 1
+<time 160>	[FINISHED] Process 1
+-------------------------------------------
+<time 160>	[START] Process 6
+<time 160>	[RUNNING] Process 6
+<time 161>	[RUNNING] Process 6
+<time 162>	[STOP] Process 6
+-------------------------------------------
+<time 162>	[START] Process 4
+<time 162>	[RUNNING] Process 4
+<time 163>	[RUNNING] Process 4
+<time 164>	[RUNNING] Process 4
+<time 165>	[RUNNING] Process 4
+<time 166>	[RUNNING] Process 4
+<time 167>	[FINISHED] Process 4
+-------------------------------------------
+<time 167>	[START] Process 6
+<time 167>	[RUNNING] Process 6
+<time 168>	[RUNNING] Process 6
+<time 169>	[RUNNING] Process 6
+<time 170>	[RUNNING] Process 6
+<time 171>	[RUNNING] Process 6
+<time 172>	[RUNNING] Process 6
+<time 173>	[RUNNING] Process 6
+<time 174>	[RUNNING] Process 6
+<time 175>	[RUNNING] Process 6
+<time 176>	[RUNNING] Process 6
+<time 177>	[RUNNING] Process 6
+<time 178>	[RUNNING] Process 6
+<time 179>	[RUNNING] Process 6
+<time 180>	[FINISHED] Process 6
+-------------------------------------------
+<time 180>	[All FINISHED]
+-------------------------------------------
+Average CPU usage : 88.333333 % 
+Average waiting time : 70.300000 ms
+Average response time : 22.000000 ms
+Average turnaround time : 127.100000 ms
+===========================================
+
